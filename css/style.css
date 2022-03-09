@@ -5,36 +5,37 @@
 */
 
 body {
-  background-color: #75d7ea;
+  background-color: #C3C3E5;
 }
 
 h1 {
-  background-color:#4995d0;
-  color: #1fe5d8;
+  background-color: #443266;
+  color: #F1F0FF;
   padding: 40px;
   text-align: center;
 }
 
-p {
-  border-style: solid;
-  background-color: #2bafca;
-  color: #aad5fd;
-  border-color: #78ced9;
-}
-
-p {
+h1 {
   font-family:Monospace;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 h2 {
   border-style: solid;
-  background-color: #2bafca;
+  background-color: #C3C3E5;
   color: #1961a3;
   border-color: #78ced9;
 }
 
 h4 {
+  border-style: solid;
+  background-color: #F1F0FF;
+  color: #1961a3;
+  border-color: #78ced9;
+  text-align: center;
+}
+
+mdl-navigation {
   border-style: solid;
   background-color: #2bafca;
   color: #1961a3;
