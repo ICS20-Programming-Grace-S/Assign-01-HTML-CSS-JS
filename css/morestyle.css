@@ -1,28 +1,44 @@
 /*Created by: Grace S
 *Created on: Mar 2022
-*This CSS file defines the style for more_js.html
+*This CSS file defines the style for index.html
 *ICS2O-Unit1-04-HTML-CSS
 */
 
 body {
-  background-color: #cda7ec;
+  background-color: #C3C3E5;
 }
 
 h1 {
-  background-color:#be95da;
-  color: #b37ee7;
+  background-color: #443266;
+  color: #F1F0FF;
   padding: 40px;
   text-align: center;
 }
 
-p {
-  border-style: solid;
-  background-color: #f1b2f5;
-  color: #c38fd6;
-  border-color: #f2c1f5;
+h1 {
+  font-family:Monospace;
+  font-size: 30px;
 }
 
-p {
-  font-family:Monospace;
-  font-size: 15px;
+h2 {
+  border-style: solid;
+  background-color: #443266;
+  color: #1961a3;
+  border-color: #C3C3E5;
+}
+
+h4 {
+  border-style: solid;
+  background-color: #F1F0FF;
+  color: #1961a3;
+  border-color: #443266;
+  text-align: center;
+}
+
+mdl-navigation {
+  border-style: solid;
+  background-color: #2bafca;
+  color: #1961a3;
+  border-color: #78ced9;
+  text-align: center;
 }
