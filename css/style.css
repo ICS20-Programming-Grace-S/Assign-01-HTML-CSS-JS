@@ -1,0 +1,43 @@
+/*Created by: Grace S
+*Created on: Mar 2022
+*This CSS file defines the style for index.html
+*ICS2O-Unit1-04-HTML-CSS
+*/
+
+body {
+  background-color: #75d7ea;
+}
+
+h1 {
+  background-color:#4995d0;
+  color: #1fe5d8;
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  border-style: solid;
+  background-color: #2bafca;
+  color: #aad5fd;
+  border-color: #78ced9;
+}
+
+p {
+  font-family:Monospace;
+  font-size: 15px;
+}
+
+h2 {
+  border-style: solid;
+  background-color: #2bafca;
+  color: #1961a3;
+  border-color: #78ced9;
+}
+
+h4 {
+  border-style: solid;
+  background-color: #2bafca;
+  color: #1961a3;
+  border-color: #78ced9;
+  text-align: center;
+}
