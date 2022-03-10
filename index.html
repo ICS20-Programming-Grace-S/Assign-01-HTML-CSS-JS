@@ -21,23 +21,23 @@
   </head>
   <body>
     
-    <!-- Uses a transparent header that draws on top of the layout's background -->
-<style>
-.demo-layout-transparent {
+  <!-- Uses a transparent header that draws on top of the layout's background -->
+  <style>
+  .demo-layout-transparent {
   background: url('../assets/demos/transparent.jpg') center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
   /* This background is dark, so we set text to Purple. Use 87% black instead if
-     your background is light. */
+  your background is light. */
   color: #443266;
 }
-</style>
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
+  </style>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
       
-      <!-- Title -->
+      <!-- Title For Page -->
       <span class="mdl-layout-title">My Travel Page</span>
       
       <!-- Add spacer, to align navigation to the right -->
@@ -53,9 +53,9 @@
   </header>
   <main class="mdl-layout__content">
   </main>
-</div>
+  </div>
     <h1>A Tour Around The World</h1>
-    
+
     <!--Header for tourist attractions-->
       <h4 style="font-family:verdana;">Tourist Attractions</h4>
     
@@ -76,41 +76,41 @@
     <br>
     
     <!-- Wide card with share menu button -->
-<style>
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('/images/places-to-visit.jpeg') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-</style>
-
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Places to visit around the world!</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-   Located in Japan
-    <br>
-  It is a place filled with many sights to see</br>
-  </div>
- <div class="mdl-card__actions mdl-card--border">
-  <a class=
-  "mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-  href="https://www.planetware.com/world/top-rated-tourist-attractions-in-the-world-cam-1-40.htm">Where is your favourite place to vist?</a>
-</div>
-  <div class="mdl-card__menu">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">share</i>
-    </button>
-  </div>
-</div>
-    <br>
+    <style>
+    .demo-card-wide.mdl-card {
+      width: 512px;
+    }
+    .demo-card-wide > .mdl-card__title {
+      color: #fff;
+      height: 176px;
+      background: url('/images/places-to-visit.jpeg') center / cover;
+    }
+    .demo-card-wide > .mdl-card__menu {
+      color: #fff;
+    }
+    </style>
+    
+    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Places to visit around the world!</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+       Located in Japan
+        <br>
+      It is a place filled with many sights to see</br>
+      </div>
+     <div class="mdl-card__actions mdl-card--border">
+      <a class=
+      "mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+      href="https://www.planetware.com/world/top-rated-tourist-attractions-in-the-world-cam-1-40.htm">Where is your favourite place to vist?</a>
+    </div>
+      <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons">share</i>
+        </button>
+      </div>
+    </div>
+        <br>
       
         <!--Header for how to book a flight -->
       <h4 style="font-family:verdana;">Book a Trip Today</h4>
@@ -175,5 +175,24 @@
 
         <!--Header for all the possibilties where you can travel (money dependant) -->
       <h4 style="font-family:verdana;">The possibilites are ENDLESS!</h4>
+
+       <!-- Radio button -->
+	    <h5>Do you enjoy traveling?</h5>
+	    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+	      <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+	      <span class="mdl-radio__label">Yes</span>
+	    </label>
+	    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+	      <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+		<span class="mdl-radio__label">No</span>
+	    </label>
+
+      <!-- Default Slider -->
+      <h5> Where would you travel?</h5>
+<input class="mdl-slider mdl-js-slider" type="range"
+  min="0" max="100" value="0" tabindex="0">
+
+
+      </center>
   </body>
 </html>
