@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="My First Web Page, with JavaScript">
+    <meta name="description" content="Assign-01">
     <meta name="keywords" content="immaculata, ics2o">
     <meta name="author" content="Grace Silvaroli">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,37 +13,37 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
     <link rel="manifest" href="./fav_index/site.webmanifest">
     
-		<!-- Google's MDL -->
+    <!-- Google's MDL -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-purple.min.css" />
-    <link rel="stylesheet" href="./css/morestyle.css">
-    <title>Asia</title>
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-purple.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Assign-01-HTML-CC-JS</title>
   </head>
   <body>
     
-    <!-- Uses a transparent header that draws on top of the layout's background -->
-<style>
-.demo-layout-transparent {
+  <!-- Uses a transparent header that draws on top of the layout's background -->
+  <style>
+  .demo-layout-transparent {
   background: url('../assets/demos/transparent.jpg') center / cover;
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to Purple. Use 87% black instead if
+  your background is light. */
+  color: #443266;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to purple. Use 87% black instead if
-     your background is light. */
-  color: purple;
-}
-</style>
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      
-      <!-- Title For Page -->
-      <span class="mdl-layout-title">My Travel Page</span>
-      
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      
-      <!-- Navigation -->
+  </style>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          
+          <!-- Title For Page -->
+          <span class="mdl-layout-title">My Travel Page</span>
+          
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          
+           <!-- Navigation -->
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="index.html">Home Page</a>
         <a class="mdl-navigation__link" href="more.html">Second Page</a>
@@ -54,41 +54,168 @@
   <main class="mdl-layout__content">
   </main>
 </div>
-    <h1>Assign-01-HTML-CSS-JS</h1> 
+    
+    <!--Header dor Webpage-->
+    <h1>Tour Around The World</h1>
+    
+    <!--Header for tourist attractions-->
+    <h4 style="font-family:verdana;">Places in Asia</h4>
+    
+    <!-- Icon badge -->
+    <center><h5 style="color:green;"><span class="mdl-badge" data-badge="♥">Travel the World</span></h5></center>
+    <script>
+      function myButtonClicked() {
+        alert("Hello! Welcome to my 'Tour Around The World' webpage. It's filled with one-of-a-kind and exceptional places you can visit all around the world!")
+      }
+    </script>
 
-        <!-- Wide card with share menu button -->
-<style>
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('../images/kyoto_japan.jpg') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-</style>
-
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Kyoto, Japan</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-   Located in Japan
+    <!-- JS Button-->
+    <center><script src="./js/script.js"></script>
+    <div id="hello-world"></div>
     <br>
-  It is a place filled with many sights to see</br>
-  </div>
- <div class="mdl-card__actions mdl-card--border">
-  <a class=
-  "mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-  href="https://www.japan-guide.com/e/e2158.html">See more about about Kyoto!</a>
-</div>
-  <div class="mdl-card__menu">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">share</i>
-    </button>
-  </div>
+    <button onclick="myButtonClicked()">Click me</button></center>
+    <center>
+
+    <!--Text for Tourist Attractions-->
+    <br>
+    <center><p>Travelling helps you see the world through the eyes of others and is a way to experience life in different ways. This is what is so special about travelling, the enrichement in different cultures!</p></center>
+    <br>
+    <center><p>It gives you the opportunity to learn about culture, food, new places, music, which helps to develop human relationships with one another.</p></center>
+    <br>
+    <center><p>It is also the best when you just need a break!</p></center>
+
+      <!-- Wide card with share menu button -->
+      <style>
+        .demo-card-wide.mdl-card {
+          width: 512px;
+        }
+        .demo-card-wide > .mdl-card__title {
+          color: #fff;
+          height: 176px;
+          background: url('../images/kyoto_japan.jpg') center / cover;
+        }
+        .demo-card-wide > .mdl-card__menu {
+          color: #fff;
+        }
+      </style>
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">All the Best Places in Asia, on one website!</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          Tourist Attractions all over Asia
+          <br>
+          Asia is filled with diverse cultures and new exciting things all around you!</br>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class=
+            "mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl
+            button--accent"
+            href="https://travel.usnews.com/rankings/best-asian-vacations/">See more about about ASIA!</a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+      <br>
+      
+      <!--Header for how to book a flight -->
+      <h4 style="font-family:verdana;">Kyoto, Japan</h4>
+      
+      <!-- Square card -->
+      <style>
+        .demo-card-square.mdl-card {
+          width: 320px;
+          height: 320px;
+        }
+        .demo-card-square > .mdl-card__title {
+          color: #fff;
+          background:
+            url('../images/winter-kyoto.jpg') top right 10% no-repeat #46B6AC;
+        }
+      </style>
+      
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand">
+          <h2 class="mdl-card__title-text">Kyoto, Japan</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          See more about Kyoto, Japan HERE! 
+        </div>
+        
+        <!--Action to make MDL card click-->
+        <div class="mdl-card__actions mdl-card--border">
+          <a class=
+            "mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+            href="https://www.japan-guide.com/e/e2158.html">See more about Kyoto, Japan HERE!</a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+      
+      <!--Text for Book a trip today-->
+      <br>
+      <p>Booking a vacation trip isn't easy these days, with finding the best price, the right website and the perfect time!</p>
+      <br>
+      <p> As a result, if you're looking to schedule a trip right now, I've provided several links below.</p>
+      
+      <!-- Simple list -->
+      <style>
+        .demo-list-item {
+          width: 300px;
+        }
+      </style>
+      
+      <ul class="demo-list-item mdl-list">
+        <li class="mdl-list__item">
+          <span class="mdl-list__item-primary-content">
+            <a href="https://visitmaldives.com/en/maldives">Maldives</a>
+          </span>
+        </li>
+        <li class="mdl-list__item">
+          <span class="mdl-list__item-primary-content">
+            <a href="https://www.thrillophilia.com/places-to-visit-in-hong-kong">Hong Kong</a>
+          </span>
+        </li>
+        <li class="mdl-list__item">
+          <span class="mdl-list__item-primary-content">
+            <a href="https://travel.usnews.com/Shanghai_China/">Shanghai</a>
+          </span>
+        </li>
+      </ul>
+      
+      <!--Header for all the possibilties where you can travel (money dependant) -->
+      <h4 style="font-family:verdana;">The possibilites are ENDLESS!</h4>
+      
+      <!-- Radio button -->
+      <h5>Do you enjoy traveling?</h5>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+        <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+        <span class="mdl-radio__label">Yes</span>
+      </label>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+        <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+        <span class="mdl-radio__label">No</span>
+      </label>
+      
+      <!-- Default Slider -->
+      <h5> Where would you travel?</h5>
+      <input class="mdl-slider mdl-js-slider" type="range"
+        min="0" max="100" value="0" tabindex="0">
+    </center>
+    
+    <!--Images-->
+    <center>
+    <img src="./images/asia.jpeg" alt="asia" style="width:240px;height:200px;">
+    <img src="./images/europe.jpg" alt="europe" style="width:240px;height:200px;">
+    <img src="./images/Elia-Locardi.jpg" alt="Elia-Locardi" style="width:240px;height:200px;">
+    <img src="./images/Venice.jpg" alt="Venice" style="width:240px;height:200px;">
+    <img src="./images/Croatia.jpg" alt="Croatia" style="width:240px;height:200px;">
+    </center>
   </body>
 </html>
