@@ -21,18 +21,18 @@
   </head>
   <body>
     
-  <!-- Uses a transparent header that draws on top of the layout's background -->
-  <style>
-  .demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
-  }
-  .demo-layout-transparent .mdl-layout__header,
-  .demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to Purple. Use 87% black instead if
-  your background is light. */
-  color: #443266;
-}
-  </style>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+      .demo-layout-transparent {
+        background: url('../assets/demos/transparent.jpg') center / cover;
+      }
+      .demo-layout-transparent .mdl-layout__header,
+      .demo-layout-transparent .mdl-layout__drawer-button {
+        /* This background is dark, so we set text to Purple. Use 87% black instead if
+        your background is light. */
+        color: #443266;
+      }
+    </style>
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
@@ -43,17 +43,16 @@
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           
-           <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="index.html">Home Page</a>
-        <a class="mdl-navigation__link" href="more.html">Second Page</a>
-        <a class="mdl-navigation__link" href="evenmore.html">Third Page</a>
-      </nav>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">Home Page</a>
+            <a class="mdl-navigation__link" href="more.html">Second Page</a>
+          </nav>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+      </main>
     </div>
-  </header>
-  <main class="mdl-layout__content">
-  </main>
-</div>
     
     <!--Header dor Webpage-->
     <h1>Tour Around The World</h1>
@@ -223,8 +222,6 @@
             <th>Colour</th>
             <th>Number of Petals</th>
             <th>Images</th>
-            
-            
           </tr>
         </thead>
         <tbody>
