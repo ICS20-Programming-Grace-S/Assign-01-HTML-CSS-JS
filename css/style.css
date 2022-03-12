@@ -5,7 +5,7 @@
 */
 
 body {
-  background-color: #C3C3E5;
+  background-color: rgb(195, 195, 229);
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2 {
   border-style: solid;
   background-color: #443266;
   color: #443266;
-  border-color: #C3C3E5;
+  border-color: hsl(240, 40%, 83%);
 }
 
 h4 {
